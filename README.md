@@ -10,8 +10,9 @@ La aplicativo en angular para poder probar los conceptos de redux
 </p>
 <h2 align="left"> Tecnologias utilizadas</h2>
 <p>
-    <li>Angular 12.0.3</li>    
-    <li>Typescript 4.2.3</li>
+    <li>Angular 22</li>    
+    <li>NgRx 22</li>
+    <li>TypeScript 6.0</li>
 </p>
 <h2 align="left"> Version del aplicativo</h2>
 <p> V.0.0.1</p>

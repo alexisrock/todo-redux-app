@@ -8,7 +8,8 @@ import { completado, editar, borrar } from '../todo.actions';
 @Component({
   selector: 'app-todo-item',
   templateUrl: './todo-item.component.html',
-  styleUrls: ['./todo-item.component.css']
+  styleUrls: ['./todo-item.component.css'],
+  standalone: false
 })
 export class TodoItemComponent implements OnInit {
 

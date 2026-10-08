@@ -8,7 +8,8 @@ import { filtrosValidos } from '../../filtro/filtro.actions';
 @Component({
   selector: 'app-todo-list',
   templateUrl: './todo-list.component.html',
-  styleUrls: ['./todo-list.component.css']
+  styleUrls: ['./todo-list.component.css'],
+  standalone: false
 })
 export class TodoListComponent implements OnInit {
 

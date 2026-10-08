@@ -3,7 +3,8 @@ import { Todo } from './models/todo.models';
 import { filtrosValidos } from '../filtro/filtro.actions';
 
 @Pipe({
-  name: 'filtroTodo'
+  name: 'filtroTodo',
+  standalone: false
 })
 export class FiltroPipe implements PipeTransform {
 

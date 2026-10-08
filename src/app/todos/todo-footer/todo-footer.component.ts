@@ -7,7 +7,8 @@ import { limpiarTodos } from '../todo.actions';
 @Component({
   selector: 'app-todo-footer',
   templateUrl: './todo-footer.component.html',
-  styleUrls: ['./todo-footer.component.css']
+  styleUrls: ['./todo-footer.component.css'],
+  standalone: false
 })
 export class TodoFooterComponent implements OnInit {
 

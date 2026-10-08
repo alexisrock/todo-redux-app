@@ -7,7 +7,8 @@ import { crear } from '../todo.actions';
 @Component({
   selector: 'app-todo-add',
   templateUrl: './todo-add.component.html',
-  styleUrls: ['./todo-add.component.css']
+  styleUrls: ['./todo-add.component.css'],
+  standalone: false
 })
 export class TodoAddComponent implements OnInit {
 
